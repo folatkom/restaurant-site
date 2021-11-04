@@ -9,6 +9,9 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" type="text/css">
+	
+    
+
 </head>
 <body>
 	<header>
@@ -23,7 +26,7 @@
 						<p>food & drink</p>
 					</div>
 					<!--button for small devices only-->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
        					<span class="sr-only">Toggle navigation</span>
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
@@ -53,10 +56,12 @@
 			</div>
 		</nav><hr>
 	</header>
+
 	<div id="call-btn" class="visible-xs">
 		<a class="btn" href="tel:500-400-300">
 			<span class="glyphicon glyphicon-earphone"></span> 500-400-300</a>
 	</div>
+	
 	<div id="main-content" class="container">
 		<div class="jumbotron">
 			<img src="pics/marco-chilese-Gprl8lDVR9c-unsplash-1920px.jpg" alt="Picture of the restaurant" class="img-responsive visible-xs">
@@ -75,6 +80,7 @@
 			</div>
 		</div>
 	</div>
+
 	<footer class="panel-footer">
 		<div class="container">
 			<div class="row">
@@ -98,6 +104,9 @@
 			<div class="text-center">&copy; Copyright Monika Folatko 2021</div>
 		</div>
 	</footer>
+
+
+
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>

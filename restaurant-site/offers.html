@@ -4,11 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Industrial Pub</title>
+	<title>Special offer</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet" type="text/css">
+	
+    
+
 </head>
 <body>
 	<header>
@@ -23,7 +26,7 @@
 						<p>food & drink</p>
 					</div>
 					<!--button for small devices only-->
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
        					<span class="sr-only">Toggle navigation</span>
         				<span class="icon-bar"></span>
         				<span class="icon-bar"></span>
@@ -53,28 +56,65 @@
 			</div>
 		</nav><hr>
 	</header>
+
 	<div id="call-btn" class="visible-xs">
 		<a class="btn" href="tel:500-400-300">
 			<span class="glyphicon glyphicon-earphone"></span> 500-400-300</a>
 	</div>
+	
 	<div id="main-content" class="container">
-		<div class="jumbotron">
-			<img src="pics/marco-chilese-Gprl8lDVR9c-unsplash-1920px.jpg" alt="Picture of the restaurant" class="img-responsive visible-xs">
-		</div>
-		<div class="row">
+		<h2 id=menu-categories-title class="text-center">Special offers</h2>
+		<h4 class="text-center">
+			perfect matches in perfect prices
+		</h4>
+		<section class="row">
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="offers.html"><div id="specials-tile" class="row-element"><span>special offers</span></div></a>
+					<div id="beerfr" class="category-tile">
+						<img src="pics/aleksander-fox-8gBBHX_SqMo-unsplash.jpg" width="250" height="200">
+						<span>beer & friends</span>
+						<div class="dish-desc"><div class="price">7&euro;</div>tap beer of your choice with salami, cheese, peanuts and olives</div>
+					</div>
+					
 			</div>
 			<div class="col-md-4 col-sm-6 col-xs-12">
-				<a href="cocktails.html"><div id="drinks-tile" class="row-element"><span>cocktails</span></div></a>
+					<div id="burger" class="category-tile">
+						<img src="pics/john-fornander-VedLcUfLi74-unsplash.jpg" width="250" height="200">
+						<div class="dish-desc"><div class="price">9&euro;</div>classic beef burger and fries with sauce of your choice</div>
+						<span>burger & fries</span>
+					</div>
 			</div>
-			<div class="col-md-4 col-sm-12 col-xs-12">
-				<a href="https://goo.gl/maps/esEFAN3M8DCdvZmZ9" target="_blank">
-					<div id="map-tile" class="row-element">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6650.23929364031!2d19.941065814260856!3d50.0110233707956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x361056e30c510504!2sBonarka%20City%20Center!5e0!3m2!1spl!2spl!4v1612038436707!5m2!1spl!2spl" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><span>map</span></div></a>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="beerco" class="category-tile">
+						<img src="pics/timothy-hales-bennett-EoC_IuYmtug-unsplash.jpg" width="250" height="200">
+						<span>beer company</span>
+						<div class="dish-desc"><div class="price">10&euro;</div>five of our tap beers of your choice</div>
+					</div>
 			</div>
-		</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="marg" class="category-tile">
+						<img src="pics/jay-gajjar-JRT-lkrdqm8-unsplash.jpg" width="250" height="200">
+						<span>margarita & nachos</span>
+						<div class="dish-desc"><div class="price">8&euro;</div>strawberry margarita and cheesy nachos with spices</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="wine" class="category-tile">
+						<img src="pics/kamil-kalbarczyk-QJPoG1MG_CQ-unsplash.jpg" width="250" height="200">
+						<span>wine & salad</span>
+						<div class="dish-desc"><div class="price">8&euro;</div>dry white wine and chicken salad with grana padano and tomatoes</div>
+					</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+					<div id="coffee" class="category-tile">
+						<img src="pics/nathan-dumlao-gOn7dKcCWKg-unsplash.jpg" width="250" height="200">
+						<span>coffee & cake</span>
+						<div class="dish-desc"><div class="price">5&euro;</div>coffee of your choice and muffin of the day</div>
+					</div>
+			</div>
+		</section>
+		
 	</div>
+
 	<footer class="panel-footer">
 		<div class="container">
 			<div class="row">
@@ -98,8 +138,12 @@
 			<div class="text-center">&copy; Copyright Monika Folatko 2021</div>
 		</div>
 	</footer>
+
+
+
 	<script src="js/jquery-2.1.4.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/script.js"></script>
+	<script src="js/script-offers.js"></script>
 </body>
 </html>
